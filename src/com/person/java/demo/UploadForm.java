@@ -19,7 +19,7 @@ public class UploadForm {
 		try{
 		CloseableHttpClient httpClient = HttpClients.createDefault();
 
-		File file = new File("Resume.doc");
+		File file = new File("files.txt.doc");
 		HttpPost post = new HttpPost("");
 	//	HttpPost post = new HttpPost("http://www.google.com");
 		FileBody fileBody = new FileBody(file, ContentType.DEFAULT_BINARY);
