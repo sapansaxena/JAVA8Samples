@@ -20,7 +20,7 @@ public class UploadForm {
 		CloseableHttpClient httpClient = HttpClients.createDefault();
 
 		File file = new File("Resume.doc");
-		HttpPost post = new HttpPost("http://cvu.zanox.com/rest/upload/cv");
+		HttpPost post = new HttpPost("");
 	//	HttpPost post = new HttpPost("http://www.google.com");
 		FileBody fileBody = new FileBody(file, ContentType.DEFAULT_BINARY);
 		StringBody firstname = new StringBody("Sapan", ContentType.MULTIPART_FORM_DATA);
