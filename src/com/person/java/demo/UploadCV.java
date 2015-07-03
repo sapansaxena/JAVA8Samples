@@ -18,8 +18,8 @@ public class UploadCV {
 		try{
 		CloseableHttpClient httpClient = HttpClients.createDefault();
 
-		HttpPost post = new HttpPost("http://cvu.zanox.com/rest/upload/cv");
-		File file = new File("Resume.doc");
+		HttpPost post = new HttpPost("");
+		File file = new File("files.txt");
 		String firstname = "Sapan";
 		String lastname = "Saxena";
 		//
